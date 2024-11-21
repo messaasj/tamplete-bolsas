@@ -1,0 +1,40 @@
+.section1{
+    background-image: url('./imagens/header_image.png');
+    max-width: clamp(200px, 100vw, 1400px);
+   
+    height: 100vh; /* Ocupa toda a altura da tela */
+    background-size: cover; /* Faz a imagem preencher o container */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição */
+}
+.box1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0px 0px 90px;
+    
+}
+.escrita{
+   
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 2.4em;
+}
+#amarelo{
+    color: #FFB703;
+}
+.paragrafo{
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: white;
+    line-height: 25px;
+    word-spacing: 3px;
+    margin-bottom: 95px;
+}
+.rasgado{
+  bottom: 0; /* Alinhar na base da imagem */
+  width: 100%; /* Faz o vetor se ajustar à largura */
+
+ 
+}

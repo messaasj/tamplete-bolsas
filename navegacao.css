@@ -1,0 +1,24 @@
+
+.nave{
+    border-radius: 35px 35px 0px 0px;
+    padding: 20px 60px 20px 60px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #99582A;
+    max-width: clamp(200px, 100vw, 1400px);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    align-items: center;
+    font-weight: 100;
+   
+}
+#home{
+    font-weight: 700;
+    margin-left: 50px;
+}
+.nave #spanNav{
+    font-family: "Montez", cursive;
+    font-weight: 400;
+    color: white;
+    font-size: 1.5em;
+}
