@@ -9,8 +9,24 @@
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     align-items: center;
-    font-weight: 100;
-   
+    font-weight: 200;
+    
+}
+a:hover{
+    border-bottom: 0.1px solid white;
+    transform: scale(1.02); 
+    
+}
+
+a{
+    transition-duration: 0.1s;
+}
+svg{
+    transition-duration: 0.2s;
+}
+svg:hover{
+    transform: scale(1.04); 
+
 }
 #home{
     font-weight: 700;

@@ -1,6 +1,6 @@
 .section2{
     max-width: clamp(200px, 100vw, 1400px);
-   background-color: white;
+    background-color: #fffbf0;
     height: 100vh; /* Ocupa toda a altura da tela */
 }
 .box2{
@@ -15,6 +15,10 @@
     max-width: 500px;
     font-family: "Playfair Display", serif;
     
+}
+.foto{
+    z-index: 2;
+   
 }
 .bloco-escrita h2{
     font-size: 2em;

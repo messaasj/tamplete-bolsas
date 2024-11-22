@@ -35,6 +35,6 @@
 .rasgado{
   bottom: 0; /* Alinhar na base da imagem */
   width: 100%; /* Faz o vetor se ajustar à largura */
-
+  max-width: 1300px; /* Define um limite máximo */
  
 }

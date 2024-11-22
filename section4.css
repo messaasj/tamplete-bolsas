@@ -1,0 +1,96 @@
+.section4{
+    max-width: clamp(200px, 100vw, 1400px);
+    background-color: #fffbf0;
+    height: 100vh; /* Ocupa toda a altura da tela */
+}
+.introdution{
+    text-align: center;
+    padding-top: 100px;
+    
+    color: #432818;
+}
+.introdution h1{
+    font-weight: 300;
+    font-family: "Playfair Display", serif;
+    font-size: 3em;
+}
+.introdution p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative; /* Define o contêiner como referência para o texto */
+    
+
+}
+.categoria-card{
+    position: relative; /* Importante para o texto se alinhar à imagem */
+  width: 360px; /* Largura do card  talvez desnecessario*/
+  height: 412px; /* Altura do card talvez desnecessario*/
+  overflow: hidden; /* Garante que nada saia dos limites do card */
+  border-radius: 30px;
+  
+}
+.categoria-texto{
+    color: white;
+    position: absolute; /* Para sobrepor à imagem */
+    top: 0;
+    left: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-left:20px;
+    display: flex; /* Centraliza o texto */
+    flex-direction: column; /* Deixa o texto em coluna */
+}
+.categoria-texto h3{
+    font-family: "Playfair Display", serif;
+    font-size: 1.5em;
+}
+
+
+
+
+/*chatgpt-----------------------------------------------------------*/
+/* Adicionando transição ao texto */
+.categoria-card:hover .categoria-texto {
+    transform: translateY(-5px); /* Movimenta levemente o texto no hover */
+    transition: transform 0.3s ease; /* Suavidade na animação */
+}
+.categoria-card::before {
+    content: ""; /* Elemento vazio para o efeito escuro */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Começa escuro */
+    z-index: 1; /* Fica sobre a imagem */
+    transition: background 0.3s ease; /* Suavidade na transição */
+}
+
+.categoria-card:hover::before {
+    background: rgba(0, 0, 0, 0); /* Remove a camada escura no hover */
+}
+
+.categoria-card .categoria-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Preenche o card */
+    filter: blur(2px); /* Começa com desfoque */
+    transform: scale(1.05); /* Começa com leve zoom */
+    transition: filter 0.3s ease, transform 0.3s ease; /* Suavidade no efeito */
+}
+
+.categoria-card:hover .categoria-image {
+    filter: blur(0); /* Remove o desfoque no hover */
+    transform: scale(1); /* Retorna ao tamanho original */
+}
+
+/* Texto sempre visível e destacado */
+.categoria-texto {
+    z-index: 2; /* Fica acima da imagem e dos efeitos */
+}
