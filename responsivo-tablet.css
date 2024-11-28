@@ -1,6 +1,30 @@
 /* Ajuste para tablets */
 @media (max-width: 1024px) {
-    body {
-        font-size: 16px;
+    .nave{
+      
+    }
+    #home{
+        
+        margin-left: 10px;
+    }
+    .section{
+        background-size: contain; /* Ajusta para caber no contêiner sem cortar */
+        background-position: center right;
+    }
+    
+    .box1{
+        width: 45%;
+        padding: 40px 0px 0px 60px;
+    }
+    .escrita{
+        font-size: clamp(2rem, 2vw, 2.4rem);
+    }
+    .rasgado img{
+        display: none;
+    }
+}
+@media (max-width: 1200px) {
+    .rasgado img{
+        display: none;
     }
 }
