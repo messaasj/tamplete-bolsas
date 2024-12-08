@@ -1,5 +1,5 @@
 .section6{
-    max-width: clamp(200px, 100vw, 1400px);
+    max-width: clamp(100%, 100vw, 100%);
     background-color: #fffbf0;
     height: 100vh; /* Ocupa toda a altura da tela */
   

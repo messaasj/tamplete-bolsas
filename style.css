@@ -19,7 +19,7 @@ a{
     text-decoration: none;
 }
 body{
-    background-color: black;
+    background-color: #fffbf0;
     height: 100vh; /* Ocupa a altura total da viewport */
     overflow-x: hidden; /* Impede o scroll lateral */
    }
