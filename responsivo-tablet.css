@@ -52,21 +52,28 @@
         height: 20px;
     }
     .nave{
-        background-color: red;
+       
         font-size: 0.7em;
     }
     #home{
         display: none;
     }
     .section1{
-        height: 80vh;
+        height: 85vh;
     }
     .box1{
-        padding: 50px 0px 10px 30px;
+        padding: 30px 0px 10px 30px;
         width: 50%;
     }
     .escrita{
-        font-size: 1.6em;
+        font-size: 1.5em;
+     
+
+      
+    }
+    .paragrafo{
+        margin-top: 15px;
+        line-height: 20px;
       
     }
     .rasgado{
@@ -82,8 +89,9 @@
     }
     .bloco-escrita{
         text-align: center;
-        
-        max-width: 90%;
+        margin-left: 4%;
+        margin-right: 4%;
+        max-width: 100%;
     }
   
     .section3{
