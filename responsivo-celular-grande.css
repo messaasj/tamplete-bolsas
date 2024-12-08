@@ -1,1 +1,128 @@
 /* Ajuste para celulares grandes */
+
+  
+  /* Celulares padrão */
+  @media (max-width: 375px) {
+    /* Estilo para telas menores que 375px */
+    #home{
+      
+        margin-left: 3px;
+    }
+    svg{
+        width: 20px;
+        height: 20px;
+    }
+    .nave{
+        background-color: blue;
+        font-size: 0.7em;
+    }
+    #home{
+        display: none;
+    }
+    
+    .section1{
+        height: 80vh;
+    }
+    .box1{
+        padding: 50px 0px 10px 30px;
+        width: 50%;
+    }
+   
+    .escrita{
+        font-size: 1.2em;
+   
+    }
+    .paragrafo{
+        margin-top: 0px;
+
+        font-weight: 300;
+        color: white;
+        line-height: 20px;
+        word-spacing: 2px;
+        margin-bottom: 0px;
+    }
+    .rasgado{
+        display: none;
+    }
+    .section2{
+    text-align: start;
+        height: 80vh; /* Ocupa toda a altura da tela */
+    }
+    .bloco-escrita h2{
+        font-size: 1.1em;
+        text-align: start;
+    }
+    .bloco-escrita p{
+        font-family: "Poppins", sans-serif;
+        line-height: 20px;
+        word-spacing: 3px;
+        text-align: start;
+    }
+    .box-bolsa{
+        display: none;
+    }
+    .box-escrita-section3{
+    
+        max-width: 80%;
+
+    }
+    .bag02{
+      
+        margin-top: 340px;
+     
+    }
+  }
+
+
+
+
+/* Celulares menores */
+@media (max-width: 320px) {
+    /* Estilo para telas menores que 320px */
+    #home{
+      
+        margin-left: 20px;
+    }
+    svg{
+        width: 20px;
+        height: 20px;
+    }
+    .nave{
+        background-color: green;
+        font-size: 0.7em;
+    }
+    #home{
+        display: none;
+    }
+    .section1{
+        height: 80vh;
+    }
+    .box1{
+        padding: 60px 0px 20px 40px;
+        width: 50%;
+    }
+    .escrita{
+        font-size: 1.6em;
+       
+    }
+    .rasgado{
+        display: none;
+    }
+    .section2{
+
+        height: 60vh; /* Ocupa toda a altura da tela */
+    }
+    .bloco-escrita h2{
+        font-size: 1.1em;
+    }
+    .bloco-escrita p{
+        font-family: "Poppins", sans-serif;
+        line-height: 20px;
+        word-spacing: 3px;
+    }
+    .box-bolsa{
+        display: none;
+    }
+  }
+
+  

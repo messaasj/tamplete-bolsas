@@ -3,13 +3,13 @@
 
 }
 .fundo-marrom{
-    max-width: clamp(200px, 100vw, 1400px);
-    height: 800px; /* Altura do fundo claro */
+    max-width: clamp(90%, 100vw, 97%);
+    height: 100vh; /* Altura do fundo claro */
     background-color: #432818; /* Cor clara */
     border-radius:  0px 350px 0px 0px;
 }
 .box3{
-    max-width: clamp(200px, 100vw, 1400px);
+    max-width: clamp(90vw, 100vw, 100vw);
     gap: 15px;
     margin-top: -470px; /* Faz com que o bloco marrom sobreponha o fundo claro */
     z-index: 1;
@@ -21,7 +21,7 @@
     
     display: flex;
     flex-direction: column;
-    padding-right: 120px;
+    padding-right: 10%;
     
 }
 .box-escrita-section3 h3{

@@ -1,30 +1,131 @@
 /* Ajuste para tablets */
-@media (max-width: 1024px) {
-    .nave{
-      
+@media (min-width: 769px) and (max-width: 1024px){
+   
+    .escrita{
+        font-size: 2em;
     }
+    .section1{
+        height: 70vh;
+    }
+    .box1{
+        padding: 50px 0px 10px 30px;
+        width: 50%;
+    }
+    .rasgado{
+        display: none;
+    }
+    .bloco-escrita{
+        margin-top: 10px;
+    }
+    .section2{
+    
+        height: 60vh; 
+    }
+    .fundo-marrom{
+       
+        height: 60vh; 
+        padding-bottom: 10%;
+ 
+    }
+     .bloco-escrita h2{
+     font-size: 1.3em;
+    }
+    .bloco-escrita p{
+        font-size: 0.9em;
+       }
+       .bag02{
+      
+        margin-top: 290px;
+     
+    }
+       
+     
+    
+}
+@media (max-width: 768px) {
     #home{
-        
+      
         margin-left: 10px;
     }
-    .section{
-        background-size: contain; /* Ajusta para caber no contêiner sem cortar */
-        background-position: center right;
+    svg{
+        width: 20px;
+        height: 20px;
     }
-    
+    .nave{
+        background-color: red;
+        font-size: 0.7em;
+    }
+    #home{
+        display: none;
+    }
+    .section1{
+        height: 80vh;
+    }
     .box1{
-        width: 45%;
-        padding: 40px 0px 0px 60px;
+        padding: 50px 0px 10px 30px;
+        width: 50%;
     }
     .escrita{
-        font-size: clamp(2rem, 2vw, 2.4rem);
+        font-size: 1.6em;
+      
     }
-    .rasgado img{
+    .rasgado{
         display: none;
     }
-}
-@media (max-width: 1200px) {
-    .rasgado img{
+    .section2{
+    
+        height: 68vh; 
+    }
+    .box2{
+        flex-direction: column;
+        
+    }
+    .bloco-escrita{
+        text-align: center;
+        
+        max-width: 90%;
+    }
+  
+    .section3{
+        padding-top: 500px;
+
+    }
+    .fundo-marrom{
+      
+        height: 90vh; /* Altura do fundo claro */
+        padding-bottom: 10%;
+    }
+    .box-bolsa{
         display: none;
     }
+    .box-escrita-section3{
+    
+    
+        display: flex;
+        flex-direction: column;
+        padding-right: 5%;
+        max-width: 88%;
+        padding-bottom: 10%;
+    }
+    .box-escrita-section3 h3{
+        
+        margin-bottom: 15px;
+    
+        font-size: 1.5em;
+       
+    }
+    .box-escrita-section3 p{
+        line-height: 2em;
+        font-size: 0.9em;
+     
+      
+        
+    }
+    .bag02{
+      
+        margin-top: 290px;
+     
+    }
+    
+    
 }
