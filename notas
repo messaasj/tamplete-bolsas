@@ -1,0 +1,8 @@
+html{
+    font-size: 62,5%;
+}
+
+1em = 10px 
+1.5em = 15px 
+3.7em = 37px 
+
